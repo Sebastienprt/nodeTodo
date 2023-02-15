@@ -28,6 +28,7 @@ CREATE TABLE task(
    id INT AUTO_INCREMENT,
    title VARCHAR(255),
    deadline_date DATETIME,
+   description TEXT,
    is_completed BOOLEAN,
    is_deleted BOOLEAN,
    id_priority INT NOT NULL,
